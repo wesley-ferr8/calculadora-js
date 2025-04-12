@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const ultimoChar = calculoDisplay.slice(-1);
 
-    //se começa a expressão ou depois de operador, adiciona 0.
+    //se começa a expressão ou depois de operador, adiciona 0
     if (['+', '-', '*', '/', '(', ''].includes(ultimoChar)) {
       adicionarDisplay('0.');
       return;
