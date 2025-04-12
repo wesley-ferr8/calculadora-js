@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'digital';
+  src: url('../font/DigitalNumbers-Regular.ttf') format('truetype');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #757a98;
+}
+
+.calculadora {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #333a57;
+  border: px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  height: 510px;
+  max-width: 500px;
+}
+
+#resultado {
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  height: 100px;
+  text-align: right;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #3b405e;
+  font-family: 'digital';
+  color: white;
+  font-size: 43px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.linha button {
+  flex: 1;
+  border: none;
+  width: 50px;
+  height: 60px;
+  font-size: 1.5em;
+  margin: 2px;
+}
+
+.numbers-color {
+  color: white;
+  background-color: #3b405e;
+}
+
+.numbers-color:hover {
+  background-color: #3b405ea4;
+}
+
+.operators-color {
+  color: #ff3765;
+  background-color: #515572;
+}
+
+.operators-color:hover {
+  background-color: #515572ce;
+}
+
+#botao-on-off {
+  height: 100px;
+  background-color: #ff3765;
+  color: white;
+}
+
+#botao-on-off:hover {
+  background-color: #ff3766cc;
+}
+
+#imagem {
+  display: flex;
+  max-width: 100%;
+  height: 89px;
+  border-radius: 10px;
+}
